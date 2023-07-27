@@ -15,16 +15,7 @@
 -     ?finished : Bernilai 0 atau 1. Bila 0, maka tampilkan buku yang sudah belum selesai dibaca (finished: false). Bila 1, maka tampilkan buku yang sudah selesai dibaca (finished: true). Selain itu, tampilkan buku baik yang sudah selesai atau belum dibaca.
 
 ## Body Request
-{
-    "name": string,
-    "year": number,
-    "author": string,
-    "summary": string,
-    "publisher": string,
-    "pageCount": number,
-    "readPage": number,
-    "reading": boolean
-}
+-     { "name": string, "year": number, "author": string, "summary": string, "publisher": string, "pageCount": number, "readPage": number, "reading": boolean }
 
 # 💻 How to Run This Program?
 1. Clone repositori ini
